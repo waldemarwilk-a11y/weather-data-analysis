@@ -87,19 +87,18 @@ Includes:
 
 ## Project Structure
 
+```text
 weather-data-analysis/
-
-├── main.py → ETL pipeline (scraping + DB + visualization)
-├── scraping.py → web scraping logic
-├── db.py → database connection + insert/update logic
-├── db_config.py → MySQL configuration
-├── visualization.py → data analysis + Plotly charts
-├── gui.py → Tkinter GUI
+├── main.py                 # ETL pipeline (scraping + DB + visualization)
+├── scraping.py             # web scraping logic
+├── db.py                   # database connection + insert/update logic
+├── db_config.py           # MySQL configuration
+├── visualization.py       # data analysis + Plotly charts
+├── gui.py                 # Tkinter GUI
 ├── requirements.txt
-├── weather_db_dump.sql → database schema
-└── plots/ → generated HTML visualizations
-
----
+├── weather_db_dump.sql    # database schema
+└── plots/                 # generated HTML visualizations
+```
 
 ## Database Schema
 
